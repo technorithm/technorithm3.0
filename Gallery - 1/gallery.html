@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+  <!-- filter-buttons -->
+  <div class="filter-buttons">
+    <button onclick="filterGallery('all')" class="active">All</button>
+    <button onclick="filterGallery('forum')">Forum Photos</button>
+    <button onclick="filterGallery('art')">Art Fest</button>
+    <button onclick="filterGallery('quiz')">Competetion</button>
+    <button onclick="filterGallery('games')">Games</button>
+    <button onclick="filterGallery('fashion')">Fashion Show</button>
+  </div>
+  <!-- Gallery grid -->
+  <div class="gallery">
+    <div class="gallery-item forum" onclick="openLightbox(0)">
+
+      <img src="./images/IT FORUM PHOTO/b1.jpg" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(1)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8577.JPG" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(2)">
+
+      <img src="./images/IT FORUM PHOTO/IMG20221205121721.jpg" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(3)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8703.JPG" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(4)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8712.JPG" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(5)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8728.JPG" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(6)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8747.JPG" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(7)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8769.JPG" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(8)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8776.JPG">
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(9)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8835.JPG">
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(10)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8840.JPG">
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(11)">
+      <img src="./images/IT FORUM PHOTO/IMG_8870.JPG">
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(12)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8876.JPG">
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(13)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8878.JPG">
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(14)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8883.JPG">
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(15)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8887.JPG">
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(16)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8914.JPG">
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(17)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8922.JPG">
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(18)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8946.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(19)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8964.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(20)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8972.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(21)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8982.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(22)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8990.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(23)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8997.JPG" />
+    </div>
+    <div class="gallery-item forum" onclick="openLightbox(24)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_8999.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(25)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_9006.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(26)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_9008.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(27)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_9010.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(28)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_9066.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(29)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_9067.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(30)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_9070.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(31)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1078.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(32)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_0944.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(33)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_0904.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(34)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_0900.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(35)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_0895.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(36)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_0872.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(37)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_0888.jpg" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(38)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_0887.jpg" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(39)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_0991.jpg" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(40)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1088.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(41)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1143.JPG" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(42)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1151.JPG" />
+    </div>
+
+
+    <div class="gallery-item forum" onclick="openLightbox(43)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1153.jpg" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(44)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1157.jpg" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(45)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1159.jpg" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(46)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1231.jpg" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(47)">
+
+      <img src="./images/IT FORUM PHOTO/IMG_1272.jpg" />
+    </div>
+
+    <div class="gallery-item forum" onclick="openLightbox(48)">
+      <img src="./images/IT FORUM PHOTO/IMG_1306.JPG" />
+    </div>
+
+    <div class="gallery-item art" onclick="openLightbox(49)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/Ganesha Art Fest (1).png" />
+    </div>
+
+    <div class="gallery-item art" onclick="openLightbox(50)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.09.56 PM.jpeg" />
+    </div>
+
+    <div class="gallery-item art" onclick="openLightbox(51)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.02 PM.jpeg" />
+    </div>
+
+    <div class="gallery-item art" onclick="openLightbox(52)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.06 PM.jpeg" />
+    </div>
+
+    <div class="gallery-item art" onclick="openLightbox(53)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.07 PM.jpeg" />
+    </div>
+
+    <div class="gallery-item art" onclick="openLightbox(54)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.10 PM.jpeg" />
+    </div>
+
+
+    <div class="gallery-item art" onclick="openLightbox(55)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.13 PM.jpeg" />
+    </div>
+
+
+    <div class="gallery-item art" onclick="openLightbox(56)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.17 PM.jpeg" />
+    </div>
+    <div class="gallery-item art" onclick="openLightbox(57)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.16 PM.jpeg" />
+    </div>
+
+    <div class="gallery-item art" onclick="openLightbox(58)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.17 PM (1).jpeg" />
+    </div>
+
+    <div class="gallery-item art" onclick="openLightbox(59)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/WhatsApp Image 2023-09-21 at 6.10.17 PM (2).jpeg" />
+    </div>
+    <div class="gallery-item art" onclick="openLightbox(60)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/c1.jpeg" />
+    </div>
+    <div class="gallery-item art" onclick="openLightbox(61)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/c2.jpeg" />
+    </div>
+    <div class="gallery-item art" onclick="openLightbox(62)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/c3.jpeg" />
+    </div>
+    <div class="gallery-item art" onclick="openLightbox(63)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/c4.jpeg" />
+    </div>
+    <div class="gallery-item art" onclick="openLightbox(64)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/c5.jpeg" />
+    </div>
+    <div class="gallery-item art" onclick="openLightbox(65)">
+      <img src="./images/GANESHA ART FESTIVAL 21092023/c6.jpeg" />
+    </div>
+
+    <!-- Competation Photos -->
+    <div class="gallery-item quiz" onclick="openLightbox(66)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-11 at 11.53.05 AM.jpeg">
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(67)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.33.40 PM (1).jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(68)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.37.39 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(69)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.32.52 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(70)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.35.32 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(71)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.44.49 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(72)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.44.48 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(73)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.43.51 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(74)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.43.47 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(75)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.43.49 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(76)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.42.42 PM.jpeg" />
+    </div>
+    <div class="gallery-item quiz" onclick="openLightbox(77)">
+      <img src="./images/ONLINE QUIZ COM 13092023/WhatsApp Image 2023-09-13 at 4.43.49 PM (1).jpeg" />
+    </div>
+    <!-- Games -->
+    <div class="gallery-item games" onclick="openLightbox(78)">
+      <img src="./images/IT FORUM PHOTO/a19.jpg" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(79)">
+      <img src="./images/IT FORUM PHOTO/a20.jpg" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(80)">
+      <img src="./images/IT FORUM PHOTO/a22.jpg" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(81)">
+      <img src="./images/IT FORUM PHOTO/a23.jpg" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(82)">
+      <img src="./images/IT FORUM PHOTO/a24.JPG" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(83)">
+      <img src="./images/IT FORUM PHOTO/a29.JPG" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(84)">
+      <img src="./images/IT FORUM PHOTO/a40.JPG" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(85)">
+      <img src="./images/IT FORUM PHOTO/a38.JPG" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(86)">
+      <img src="./images/IT FORUM PHOTO/a41.JPG" />
+    </div>
+    <div class="gallery-item games" onclick="openLightbox(87)">
+      <img src="./images/IT FORUM PHOTO/a42.JPG" />
+    </div>
+  
+  <!-- Fashion show -->
+   <div class="gallery-item fashion" onclick="openLightbox(88)">
+    <img src="./images/GANESHA ART FESTIVAL 21092023/f1.png" >
+   </div>
+   <div class="gallery-item fashion" onclick="openLightbox(89)">
+    <img src="./images/GANESHA ART FESTIVAL 21092023/f2.png" >
+   </div>
+   <div class="gallery-item fashion" onclick="openLightbox(90)">
+    <img src="./images/GANESHA ART FESTIVAL 21092023/f3.png" >
+   </div>
+   <div class="gallery-item fashion" onclick="openLightbox(91)">
+    <img src="./images/GANESHA ART FESTIVAL 21092023/f4.png" >
+   </div>
+   <div class="gallery-item fashion" onclick="openLightbox(92)">
+    <img src="./images/GANESHA ART FESTIVAL 21092023/f5.png" >
+   </div>
+   <div class="gallery-item fashion" onclick="openLightbox(93)">
+    <img src="./images/GANESHA ART FESTIVAL 21092023/f6.png" >
+   </div>
+  </div>
+  <!-- Lightbox Model -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img id="lightbox-image" class="zoom-effect">
+    <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+    <button class="next" onclick="changeImage(1)">&#10095;</button>
+    <button class="fullscreen" onclick="toggleFullscreen()">◻</button>
+    <button class="download" onclick="downloadImage()">↧</button>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+
+</html>

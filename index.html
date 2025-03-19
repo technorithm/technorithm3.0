@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang=  "en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Department Forum - Information Technology</title>
+
+  <!-- Favicon link -->
+  <link rel="icon" href="image/technorithm logo.png" type="image/png">
+
+  <!-- swiper js link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+  <!-- css file -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- icons link -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+  <!-- animation link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  
+</head>
+
+<body>
+
+  <video class="video" autoplay loop muted >
+    <source src=" image/videoplayback.webm">
+  </video>
+  <!-- navigation section -->
+
+  <header class="header">
+
+    <div class="logo-border">
+      <a href="#home" class="logo">
+        <img src="image/technorithm logo.png" alt="Logo">
+      </a>
+    </div>     
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#review">Review</a>
+      <a href="#team">Our Team</a>
+      <a href="#contact">Contact</a>
+       <div class="dropdown">
+        <a href="#" class="dropbtn" onclick="toggleDropdown(event)">Events ▼</a>
+        <div class="dropdown-content" id="dropdown-menu">
+            <a href="#" id="upcoming-event" class="dropa">Upcoming Events</a>
+            <a href="Gallery - 1/gallery.html" class="dropa" target="_blank">Past Events</a>
+        </div>
+    </div>
+    </nav>
+
+    <div onclick="dropdown()" class='bx bx-menu' id="menu-icon" ></div>
+
+  </header>
+
+  <!-- js file -->
+  <script src="script/script6.js"></script>
+  <script src="script/script9.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+
+  <!-- home section -->
+
+  <section class="home" id="home">
+    <div class="home-content">
+
+      <h1 class="animate__animated animate__bounceInDown">TechnorIThm</h1>
+      <h2 class="animate__animated animate__zoomIn animate__delay-1s">A Student Forum - Department of Information Technology</h2>
+      <p class="animate__animated animate__zoomIn animate__delay-2s">Welcomes You !<p>
+
+    </div>
+
+    <div class="home-social animate__animated animate__bounceInLeft animate__delay-1s">
+      <a href="https://www.facebook.com/profile.php?id=100087101163563&mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook'></i></a>
+      <a href="https://www.instagram.com/technorithm_gwcet?igsh=azRiNW55d21sbmF0" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+      <a href="https://www.youtube.com/@technorIThm_gwcet" target="_blank"><i class='bx bxl-youtube' ></i></a>
+      <a href="https://www.linkedin.com/in/technorithm-gwcet-b04046327 " target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+    </div>
+    
+  </section>
+
+
+  <!-- about section 1 -->
+
+  <section class="about" id="about">
+
+    <h1 class="heading">About <span>Us</span></h1>
+
+    <div class="about-content">
+      <div class="data" id="data">
+        <p  id="para1">Welcome to Technorithm Forum, where the spirit of innovation and collaboration come to life!</p><br><br><br>
+  
+          <p id="para2">At Technorithm, we are more than just a community; we are a dynamic hub of tech enthusiasts, problem solvers, and creative thinkers. Our mission is to create an environment where knowledge is shared, connections are formed, and ideas are turned into reality.</p><br><br><br>
+  
+          <p id="para3">Come and be a part of this incredible journey!</p>
+
+          
+      </div>    
+      
+      <div id="img-box" class="img-box">
+        <img id="mainImg" src="image\about-img1.jpeg" alt="">
+        <span id="circle-spin" class="circle-spin"></span>
+      </div>
+
+    </div>
+      
+  </section>
+
+  <!-- js file -->
+  <script src="script/script7.js"></script>
+
+
+
+  <!-- about section 2 -->
+
+  <section class="about_2">
+
+    <div class="content">
+      <div class="box">
+        <div class="icon"><i class="fa-solid fa-person-chalkboard"></i></div>
+        <h1 class="num" data-num="7">0</h1>
+        <p class="text">Teachers of IT Department</p>
+      </div>
+  
+      <div class="box">
+        <div class="icon"><i class="fa-solid fa-crown"></i></div>
+        <h1 class="num" data-num="22">0</h1>
+        <p class="text">Head Member of Forum</p>
+      </div>
+  
+      <div class="box">
+        <div class="icon"><i class="fa-solid fa-people-group"></i></div>
+        <h1 class="num" data-num="212">0</h1>
+        <p class="text">Members of Forum</p>
+      </div>
+  
+      <div class="box">
+        <div class="icon"><i class="fa-solid fa-user-graduate"></i></div>
+        <h1 class="num" data-num="145">0</h1>
+        <p class="text">Alumni of forum</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- js file -->
+  <script src="script/script4.js"></script>
+
+
+
+  <!-- review section -->
+
+  <section class="review" id="review">
+    <h1 class="heading">Faculty <span>Review</span></h1>
+      
+    <div class="testimonials-wrapper">
+      <div class="testimonials">
+        <div class="slider">
+
+          <div class="slide">
+            <div class="slide-bg"></div>
+            <div class="slide-content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="slide-img">
+                <img src="image/principal-sir.png" />
+              </div>
+              <div class="slide-text">
+                <h3>Dr. Salim Chavan</h3>
+                <p>
+                  Best of luck to Technorithm Student Forum for providing a great platform for students to explore their hidden talents through various curricular and extracurricular activities. Wishing success to the office bearers. Thank you!
+                </p>
+                <p class="client">Principal of GWCET</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg"></div>
+            <div class="slide-content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="slide-img">
+                <img src="image/HOD-sir.png" />
+              </div>
+              <div class="slide-text">
+                <h3>Prof. Prashant Gumgaonkar</h3>
+                <p>Proud to work with talented students dedicated to TECHNORITHM, academics, and extracurriculars. Their achievements and past contributions continue to inspire. Grateful to the faculty and wishing Team Technorithm continued success!
+                </p>
+                <p class="client">HOD of IT Department</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg"></div>
+            <div class="slide-content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="slide-img">
+                <img src="image/shilpa-mam.png" />
+              </div>
+              <div class="slide-text">
+                <h3>Prof. Shilpa Chimdanwar</h3>
+                <p>
+                  As the word suggest technorithm  is the combination of technology and algorithm. Our forum is totally by students for the students.Really impressed with hardwork and dedication of team technorithm. Best luck for future endeavors.
+                </p>
+                <p class="client">Forum Incharge</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg"></div>
+            <div class="slide-content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="slide-img">
+                <img src="image/Prachiti-mam.png" />
+              </div>
+              <div class="slide-text">
+                <h3>Prof. Prachiti Ganorkar</h3>
+                <p>
+                  Forums play a crucial role in bridging the gap between theoretical knowledge and practical application, fostering a collaborative learning environment, and enhancing the overall educational experience at GWCET.
+                </p>
+                <p class="client">Assistant Professor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg"></div>
+            <div class="slide-content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="slide-img">
+                <img src="image/Aboli-mam.png" />
+              </div>
+              <div class="slide-text">
+                <h3>Prof. Aboli Vairagade</h3>
+                <p>
+                  Technorithm fosters technical discussions, workshops, and seminars to enhance skills.Internal feedback highlights its impact on learning and innovation.Committed to growth, it remains a vital part of our academic community.
+                </p>
+                <p class="client">Assistant Professor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg"></div>
+            <div class="slide-content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="slide-img">
+                <img src="image/Dixit-sir.png" />
+              </div>
+              <div class="slide-text">
+                <h3>Prof. Swapnil Dixit</h3>
+                <p>
+                  Technorithm fosters technical discussions, workshops, and seminars to enhance skills. Internal feedback highlights its impact on learning and innovation. Committed to growth, it remains a vital part of our academic community. 
+                </p>
+                <p class="client">Assistant Professor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg"></div>
+            <div class="slide-content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="slide-img">
+                <img src="image/Arvind-sir.png" />
+              </div>
+              <div class="slide-text">
+                <h3>Prof. Arvind Ganvir</h3>
+                <p>
+                  Your participation and contributions to TECHNORITHM are truly appreciated.Your enthusiasm and dedication are commendable—keep learning and inspiring!Looking forward to more of your amazing contributions!
+                </p>
+                <p class="client">Assistant Professor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-bg"></div>
+            <div class="slide-content">
+              <i class="fa-solid fa-quote-left"></i>
+              <i class="fa-solid fa-quote-right"></i>
+              <div class="slide-img">
+                <img src="image/Vandana-mam.png" />
+              </div>
+              <div class="slide-text">
+                <h3>Prof. Vandana Choubey</h3>
+                <p>
+                  Technorithm is a perfect blend of technology and innovation, driven by the passion and dedication of students. It's inspiring to see a forum built entirely by students, for students, fostering creativity and learning.
+                </p>
+                <p class="client">Assistant Professor</p>
+              </div>
+            </div>
+          </div>          
+          
+        </div>
+      </div>
+      <div class="controls">
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-arrow-right"></i>
+        <div class="dots">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="script/script2.js" defer></script>
+
+
+
+  <!-- out team section -->
+
+  <section class="team mySwiper" id="team">
+
+    <h1 class="heading">Our <span>Team</span></h1>
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Anjali.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Anjali Bhil</span>
+          <span class="card_name">Cultural Head</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Khushi.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Khushi Jais</span>
+          <span class="card_name">Finance Head</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Riya.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Riya Jais</span>
+          <span class="card_name">Treasure</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Khomesh.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Khomesh Mankar</span>
+          <span class="card_name">Technical Head</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/AyushM.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Ayush Murle</span>
+          <span class="card_name">Secretary</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Nitin.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Nitin Thakre</span>
+          <span class="card_name">President</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Amit.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Amit Kumar</span>
+          <span class="card_name">Vice President</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Ganesh.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Ganesh Pachbhai</span>
+          <span class="card_name">Technical Head</span>
+        </div>
+      </div>
+      
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Ayush.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Ayush Lokhande</span>
+          <span class="card_name">Finance Head</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Stepee.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Stepee Sondawale</span>
+          <span class="card_name">Decoration Head</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Vaishanavi.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Vaishnavi Bopinwar</span>
+          <span class="card_name">Decoration Head</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/Prachi.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Prachi Sonkusare</span>
+          <span class="card_name">Event Management</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/AyushK.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Ayush kahalkar</span>
+          <span class="card_name">Discipline Head</span>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card_image">
+          <img src="image/ShrutiU.png" alt="">
+        </div>
+        <div class="card_content">
+          <span class="card_title">Shruti Umredkar</span>
+          <span class="card_name">Cultural Head</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- JS File -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="script/script3.js"></script>
+  
+
+  
+  <!-- contact section -->
+
+  <section class="contact" id="contact">
+
+    <h1 class="heading">Contact <span>Us</span></h1>
+
+    <p class="sub-heading1"><i>If you have any questions, or concerns, please don't hesitate to get in touch with us.</i></p>
+
+    <p class="sub-heading2"><i>Keep upto date with our latest events and updates.</i></p>
+
+    <div class="box-wrapper">
+
+      <div class="info-wrap">
+        
+        <ul class="info-details">
+          <p>Contact Information</p>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>Phone:</span> <a>78409 93883 / 80074 19580</a>
+            </li>
+            <li>
+                <i class="fas fa-envelope"></i>
+                <span>Email:</span> <a href="mailto:technorithmgwcet123@gmail.com" target="_blank">technorithmgwcet123@gmail.com</a>
+            </li>
+            <li>
+                <i class="fa-solid fa-location-dot locat"></i>
+                <span>Address:</span> <a href="https://maps.app.goo.gl/eK9NqgikSmJa5Xym6" target="_blank">GWCET, Nagpur</a>
+            </li>
+        </ul>
+
+        <ul class="social-icons">
+            <div class="inner-social-icons">
+              <li><a href="https://www.facebook.com/profile.php?id=100087101163563&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/technorithm_gwcet?igsh=azRiNW55d21sbmF0" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/@technorIThm_gwcet" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/technorithm-gwcet-b04046327/" target="_blank"><i class="bx bxl-linkedin-square"></i></a></li>
+            </div>
+        </ul>
+      </div>
+
+      <div class="illustration">
+        <img src="image/contact-img.png" alt="">
+      </div>
+
+    </div>
+  
+  </section>
+
+  <!-- js file -->
+  <script src="script/script5.js"></script>
+
+
+
+  <!-- footer section -->
+
+  <footer class="footer">
+
+  
+
+    <div class="footer_body">
+
+      <ul class="footer_logo">
+        <li><img src="image/technorithm logo.png" alt=""></li>
+        <li>Empowering minds and shaping futures with knowledge, innovation, and collaboration - Proudly brought to you by the Depatment of Information Technology</li>
+      </ul>
+      
+      <ul class="footer_links">
+        <h2>QUICK LINKS</h2>
+        <br>
+        <a href="#home"><li>Home</li></a>
+        <a href="#about"><li>About Us</li></a>
+        <a href="#review"><li>Review</li></a>
+        <a href="#team"><li>Our Team</li></a>
+        <a href="#contact"><li>Contact</li></a>
+
+      </ul>
+
+      <ul class="footer_contact">
+        <h2>GET IN TOUCH</h2>
+        <br>
+        <a><li><i class="fa-solid fa-phone"></i>78409 93883 / 80074 19580</li></a>
+        <br>
+        <a href="mailto:technorithmgwcet123@gmail.com" target="_blank"><li><i class="fas fa-envelope"></i>technorithmgwcet123@gmail.com</li></a>
+        <br>
+        <a href="https://maps.app.goo.gl/eK9NqgikSmJa5Xym6" target="_blank"><li><i class="fa-solid fa-location-dot"></i>GWCET, Nagpur</li></a>  
+      </ul>
+
+      <ul class="footer_social">
+        <h2>FOLLOW US</h2>
+        <br>
+        <a href="https://www.facebook.com/profile.php?id=100087101163563&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/technorithm_gwcet?igsh=azRiNW55d21sbmF0" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@technorIThm_gwcet" target="_blank"><i class="fab fa-youtube"></i></a> 
+        <a href="https://www.linkedin.com/in/technorithm-gwcet-b04046327/" target="_blank"><i class="bx bxl-linkedin-square"></i></a> 
+      </ul>
+
+    </div>
+
+  </footer>
+
+  <!--lower footer section -->
+  
+  <div class="lower_footer">
+
+    <p>Copyright &copy; 2024 by Sejal Morghade and Ganesh Pachbhai | All Rights Reserved</p>
+
+    <div class="lower_footer_icon">
+      <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+  </div>
+
+  <!-- JS File -->
+  <script src="script/script1.js"></script>
+</body>
+
+</html>
