@@ -44,13 +44,25 @@ dots.forEach((dot, ind) => {
 leftArrow.addEventListener("click", () => {
   slideIndex = slideIndex > 0 ? slideIndex - 1 : totalSlides - 1;
   setIndex();
+  stopAutoSlide(); // Stop auto-slide on manual navigation
 });
 
 // Right arrow click
 rightArrow.addEventListener("click", () => {
   slideIndex = (slideIndex + 1) % totalSlides;
   setIndex();
+  stopAutoSlide(); // Stop auto-slide on manual navigation
 });
+
+// Pause on hover
+slider.addEventListener("mouseenter", stopAutoSlide);
+slider.addEventListener("mouseleave", startAutoSlide);
+
+// Pause on mouse click (desktop) and touch (mobile)
+slider.addEventListener("mousedown", stopAutoSlide);
+slider.addEventListener("mouseup", startAutoSlide);
+slider.addEventListener("touchstart", stopAutoSlide);
+slider.addEventListener("touchend", startAutoSlide);
 
 // Intersection Observer to detect when review section is in viewport
 const observer = new IntersectionObserver(
@@ -66,7 +78,3 @@ const observer = new IntersectionObserver(
 
 // Observe the review section
 observer.observe(reviewSection);
-
-
-
-

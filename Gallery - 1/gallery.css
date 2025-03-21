@@ -5,7 +5,18 @@ body {
     background: #081f29;
     color: white;
     transition: 0.3s, color 0.3s;
+    background: url(images/image.png);
 }
+
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
 
 /* Filter Buttons */
 .filter-buttons {
