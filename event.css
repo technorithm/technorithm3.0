@@ -37,26 +37,30 @@ header {
   text-align: center;
 }
 
-/* Event Section */
-.events {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  max-width: 85%;
-  margin: 30px auto;
-  perspective: 1000px;
-  color: #fcfcfc;
+.events{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
 }
 
 /* Event Box with Glassmorphism & Bounce Effect */
 .event-box {
   background: rgba(255, 255, 255, 0.1); /* Glass effect */
   backdrop-filter: blur(10px);
-  padding: 20px;
+  padding:10px 30px 40px 30px;
   border-radius: 15px;
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin: 40px;
+  
+}
+.event-box p{
+  font-size: 25px;
+}
+.event-box h2{
+  font-size: 35px;
 }
 
 /* Bounce Effect on Hover */
@@ -76,12 +80,17 @@ button {
   background: linear-gradient(45deg, #007bff, #4ca1af);
   color: white;
   border: none;
-  padding: 12px 18px;
+  padding: 16px 22px;
   cursor: pointer;
   margin: 5px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 18px;
+  margin-top: 15px;
   transition: background 0.3s ease, transform 0.2s ease;
+}
+button a{
+  text-decoration: none;
+  color: aliceblue;
 }
 
 button:hover {

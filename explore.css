@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body 
+{
+  font-family: "Source Serif 4",sans-serif;  
+  margin: 0;
+  padding: 0;
+  background: url(image/image.png);
+}
+
+.video
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+header 
+{
+  color: #00abf0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 24px;
+}
+
+.event-details 
+{
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
+  backdrop-filter: blur(10px);
+  color: #fcfcfc;
+}
+
+.event-details video{
+  z-index: 1;
+  border-radius: 10px;
+  width: 100%;
+}
+
+ul 
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+li 
+{
+  background: rgba(255, 255, 255, 0.1);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
