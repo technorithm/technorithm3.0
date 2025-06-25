@@ -27,7 +27,7 @@ document
   .addEventListener("click", function (event) {
     event.preventDefault();
     Swal.fire({
-      imageUrl:"image/DJConcert.jpg",
+      imageUrl:"./image/Waste.jpg",
       imageWidth: 500,
       imageHeight: 500,
       imageAlt: "Event Image",
